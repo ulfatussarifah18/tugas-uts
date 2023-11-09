@@ -28,16 +28,23 @@ const Menu = () => {
         }}>
         <TouchableOpacity
           style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-          <Icon name="home" size={30} color="#bdbdbd" />
-          <Text style={{fontSize: 12, color: '#bdbdbd', fontWeight: 'bold'}}>
+          <Icon name="home" size={30} color="#F67280" />
+          <Text style={{fontSize: 12, color: '#F67280', fontWeight: 'bold'}}>
             home
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-          <Icon name="football" size={30} color="#bdbdbd" />
+          <Icon name="bag-handle-outline" size={30} color="#bdbdbd" />
           <Text style={{fontSize: 12, color: '#bdbdbd', fontWeight: 'bold'}}>
-            Lapangan
+            Transaksi
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+          <Icon name="calendar-outline" size={30} color="#bdbdbd" />
+          <Text style={{fontSize: 12, color: '#bdbdbd', fontWeight: 'bold'}}>
+            Book Now
           </Text>
         </TouchableOpacity>
         <TouchableOpacity

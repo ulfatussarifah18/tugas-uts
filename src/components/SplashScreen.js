@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
-
+1;
 import {StackActions} from '@react-navigation/native';
 class Menu extends Component {
   constructor(props) {

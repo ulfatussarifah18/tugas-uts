@@ -27,9 +27,9 @@ const Header = props => {
         <TextInput
           value={props.pencarian}
           onChangeText={text => setPencarian(text)}
-          placeholder="Cari informasi tentang lapangan futsal"
+          placeholder="Cari informasi tentang beauty & spa"
           style={{
-            backgroundColor: '#ffffff',
+            backgroundColor: '#bdbdbd',
             elevation: 3,
             marginTop: 10,
             paddingLeft: 10,
@@ -41,7 +41,7 @@ const Header = props => {
           style={{
             justifyContent: 'center',
             alignItems: 'center',
-            backgroundColor: '#0082f7',
+            backgroundColor: '#F67280',
             marginTop: 10,
             paddingHorizontal: 10,
             borderRadius: 5,
