@@ -13,7 +13,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const Header = props => {
   return (
     <View>
-      <StatusBar barStyle="dark-content" backgroundColor={'#bdbdbd'} />
+      <StatusBar barStyle="dark-content" backgroundColor={'#ffff'} />
       <Text
         style={{
           fontSize: 30,
@@ -23,6 +23,23 @@ const Header = props => {
         }}>
         Ulfatus sarifah
       </Text>
+      <TouchableOpacity
+        style={{
+          justifyContent: 'center',
+          alignItems: 'flex-end',
+          bottom: 25,
+        }}>
+        <Text
+          style={{
+            color: '#000000',
+            fontWeight: 'bold',
+            marginTop: 10,
+            bottom: 10,
+            marginLeft: 10,
+          }}>
+          Lihat semua
+        </Text>
+      </TouchableOpacity>
       <View style={{flexDirection: 'row'}}>
         <TextInput
           value={props.pencarian}

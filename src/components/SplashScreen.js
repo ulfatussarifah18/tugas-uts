@@ -10,7 +10,7 @@ class Menu extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      // this.props.navigation.dispatch(StackActions.replace('Menu'));
+      this.props.navigation.dispatch(StackActions.replace('Menu'));
       this.props.navigation.navigate('Menu');
     }, 3000);
   }
